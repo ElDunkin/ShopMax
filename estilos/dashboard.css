@@ -125,7 +125,7 @@ ul{
         rgba(118, 121, 118, 0.2) 50%
     );
     position: relative;
-    transform: rotate(119deg);
+    transform: rotate(113deg);
 }
 .circular-sale:before {
     content: "";
@@ -138,11 +138,11 @@ ul{
     border-radius: 50%;
     box-sizing: border-box;
     font-size: 2rem;
-    transform: rotate(-119deg);
+    transform: rotate(-113deg);
 }
 
 .circular-sale:after {
-    content: "66%";
+    content: "63%";
     width: 12rem;
     height: 12rem;
     position: absolute;
@@ -153,7 +153,7 @@ ul{
         transparent 50%,
         #fff 50%
     );
-    transform: scale(1.1) rotate(-119deg);
+    transform: scale(1.1) rotate(-113deg);
     text-align: center;
     color: #243238;
     font-size: 2rem;
