@@ -1,12 +1,13 @@
 body {
     font-family: sans-serif;
-    /*background-color: #f5f5f5;*/
+    background-color: #f5f5f5;
     color: #243238;
     display: flex;
     height: 100vh;
     min-width: 250px;
 }
-.navbar{
+.navbar,
+.barnav{
     background-color: #0C254B;
     height: 98%;
     width: 200px;
@@ -15,7 +16,8 @@ body {
     align-items: center;
     gap: 20px; 
 }
-.navbar a{
+.navbar a,
+.barnav a{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,11 +46,13 @@ body {
     transition: background-color 0.3s ease;
     text-decoration: none;
 }
-.navbar a:hover{
+.navbar a:hover,
+.barnav a:hover{
     background-color: #285393;
     color: #F41F00;
 }
-.navbar a.active{
+.navbar a.active,
+.barnav a.active{
     background-color: #243238;
 }
 img{
@@ -75,47 +79,28 @@ ul{
     margin-top: 90%;
 }
 
-.start h1{
-    justify-content: center;
+.barnav{
+    display: flex;
     align-items: center;
-    text-align: center;
-    font-size: 80px;
-    color: #F41F00;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    justify-content: space-evenly;
+    width: 89%;
+    height: 90px;
+    background-color: #0C254B;
+    margin-left: 15px;
+    
 }
-hr{
-    width: 67%;
-    height: 4px;
-    background-color: #243238;
-    border: none;
-    margin-bottom: 0px;
+.barnav ul {
+    display: flex;                    /* Hace que los elementos li se alineen horizontalmente */
+    padding: 0;                      /* Elimina el padding por defecto */
+    margin: 0;                       /* Elimina el margen por defecto */
+    list-style: none;                /* Elimina los puntos de la lista */
 }
-h2{
-    font-size: 40px;
-    color: #0C254B;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-    /*margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 280px;*/
-    margin: 5px 25px 0 15px;
+
+.barnav li {
+    margin: 0 100px;              /* Espacio entre los elementos */
 }
-.start p{
-    font-size: 20px;
-    color: #243238;
-    font-weight: bold;
-    font-family: sans-serif;
-    font-size: 40px;
-    text-align: center;
-    margin: 60px 150px 0 150px;
-}
-.start img{
-    width: 400px;
-    height: 350px;
-    margin: 50px 600px;
-}
+.barnav img{
+    width: 900px;
+    height: 800px;
+    margin: 50px 600px 50px 300px;
+} 
